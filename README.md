@@ -132,3 +132,49 @@ Ghosts switch between different modes during gameplay:
 
 The transition between these modes is managed using a **Finite State Machine (FSM)**, making the gameplay dynamic and challenging.
 ```
+---
+
+# 🚀 Installation
+
+## Prerequisites
+
+- Python 3.10 or later
+- Pygame
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Ananya27290/Smart-Pacman-AI.git
+cd Smart-Pacman-AI
+## Install Dependencies
+pip install -r requirements.txt
+## Run the Project
+python main.py
+
+---
+
+# 🏗️ Project Architecture
+
+The Smart Pacman AI project follows a modular architecture where each component is responsible for a specific task. This design improves code readability, maintainability, and scalability.
+
+The architecture consists of the following modules:
+
+- **agents/** – Implements Pacman and Ghost agents.
+- **algorithms/** – Contains the A* Search Algorithm used for intelligent pathfinding.
+- **behaviors/** – Implements the Finite State Machine (FSM) and rule-based ghost behaviors.
+- **environment/** – Defines the maze layout and game environment.
+- **rendering/** – Handles rendering of the game interface using Pygame.
+- **utils/** – Stores constants and reusable helper functions.
+- **main.py** – Controls the game loop, event handling, and integration of all modules.
+
+📄 The complete architecture diagram is available in the **docs/** folder.
+
+---
+
+# 📈 Future Improvements
+
+- Add multiple difficulty levels.
+- Implement additional intelligent ghost behaviors.
+- Improve game graphics and animations.
+- Add sound effects and background music.
+- Implement score saving and leaderboard support.
