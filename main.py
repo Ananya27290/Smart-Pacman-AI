@@ -251,7 +251,7 @@ while running:
     # ------------------------------------------------
     ghost_timer += 1
 
-    ghost_speed = 12
+    ghost_speed = max(5, 12 - score // 5)
 
     if ghost_timer >= ghost_speed:
 
